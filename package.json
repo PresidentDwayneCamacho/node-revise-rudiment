@@ -1,0 +1,20 @@
+{
+  "name": "js_trader_rudiments",
+  "version": "1.0.0",
+  "description": "trader application",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bootstrap": "^3.3.7",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "banana",
+    "start": "node server.js"
+  },
+  "author": "Trey Amador",
+  "license": "ISC"
+}
