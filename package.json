@@ -17,5 +17,13 @@
     "start": "node server.js"
   },
   "author": "Trey Amador",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PresidentDwayneCamacho/node-revise-rudiment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PresidentDwayneCamacho/node-revise-rudiment/issues"
+  },
+  "homepage": "https://github.com/PresidentDwayneCamacho/node-revise-rudiment#readme"
 }
