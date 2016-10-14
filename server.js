@@ -7,6 +7,8 @@ var path = require('path');
 var bodyParser = require('body-parser');
 var logger = require('morgan');
 var app = express();
+var globalPort = 8080;
+
 
 app.set('view engine','ejs');
 app.set('views', path.join(__dirname,'views'));
@@ -22,8 +24,9 @@ logger('combined',{
 	}
 });
 
-var port = 8080;
+var port = globalPort;															//global port initialized in server.js
 app.listen(port, function(){
 	console.log('ready on port ' + port);
 });
+
 
